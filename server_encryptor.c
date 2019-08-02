@@ -1,11 +1,5 @@
-/*
- Assignment 2 Program
- Author: Zach Grimes
- PSID: 1373277
- Dr. Rincon- T/THU Spring 2019
- **References: This program uses Robert Ingall's sample code posted by Dr. Rincon on BB to define the server (lines 71-81) (used with permission.)
- NOTE: TO COMPILE ON THE CS SERVER YOU MUST SPECIFY "gcc -std=gnu99 ./zach_grimes_server.c -lm -o server; ./server localhost portnum < somefile.txt"
- -lm allows for the pow() function to be used by the gnu compiler, which I use for base conv. gnu99 is necessary to run the sample server code, or you'll get an h_addr not defined error.
+/* 
+Written by Zach Grimes 
 */
 #include <unistd.h>
 #include <stdio.h>
