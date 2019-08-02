@@ -1,11 +1,6 @@
-/* Assignment 2
- Author: Zach Grimes
- PSID: 1373277
- Dr. Rincon T/Thu Spring 2019
- **Note that lines 87 to 102 was written by Robert Ingall and posted by Dr. Rincon on BB (used with permission.)
- NOTE: TO COMPILE ON THE CS SERVER YOU MUST SPECIFY "gcc -std=gnu99 ./zach_grimes_client.c -lm -o client; ./client localhost portnum < somefile.txt"
- -lm allows for the pow() function to be used by the gnu compiler, which I use for base conv. gnu99 is necessary to run the sample server code, or you'll get an h_addr not defined error.
- */
+/*
+Written by Zach Grimes
+*/
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
